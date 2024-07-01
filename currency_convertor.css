@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-blend-mode: rgb(247, 169, 169);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+h1 {
+  text-align: center;
+}
+.container {
+  background-color: rgb(253, 219, 219);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  min-height: 40vh;
+  min-width: 40vh;
+}
+form {
+  margin: 2rem 0 1rem 0;
+}
+form select,
+input,
+p {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.75rem;
+  background-color: rgb(253, 219, 219);
+}
+form input {
+  border: 1.5px solid rgb(40, 14, 14);
+  background-color: rgb(253, 219, 219);
+  /* background-color: rgb(44, 0, 63);
+  color: aliceblue; */
+  height: 3rem;
+  padding-left: 0.5rem;
+  font-size: 1.5rem;
+}
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+}
+.dropdown i {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+.select_container img {
+  max-width: 2rem;
+}
+.select_container {
+  display: flex;
+  width: 7rem;
+  /* background-color: red; */
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: 1.5px solid rgb(40, 14, 14);
+  /* background-color: rgb(44, 0, 63);
+  color: aliceblue; */
+}
+.select_container select {
+  font-size: 1rem;
+  width: auto;
+}
+.msg {
+  margin: 5rem 0 4rem 0;
+  font-size: 1.4rem;
+  text-align: center;
+  padding-top: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: rgb(44, 0, 63);
+  color: aliceblue;
+  height: 3rem;
+  border-radius: 10px;
+  border: 1px solid rgb(40, 14, 14);
+}
